@@ -934,7 +934,7 @@ a {
 /*page header section*/
 
 .page-header {
-  background: url(../build/images/test/IMG_4181.JPG);
+  background: url(./images/test/IMG_4181.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40%;
