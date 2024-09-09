@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrapozo Card Detailing</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-bg-dark-500 text-white">
+    <!-- page header-->
+    <header class="page-header flex flex-col xl:h-screen mb-12">
+      <!--nav wrapper-->
+      <div class="navigation-wrapper">
+        <!--page navigation-->
+        <nav
+          class="flex justify-between items-center flex-wrap px-2 py-2 overflow-hidden max-w-7xl mx-auto lg:gap-2 md:gap-2 md:flex-nowrap"
+        >
+          <!--company logo-->
+          <h1>
+            <a
+              href=""
+              aria-label="link do strony głównej firmy auto detailingowej Wrapzo"
+            >
+              <!--companu logo image-->
+              <img class="h-16 md:h-20" src="./images/logo/logo.png" alt=""
+            /></a>
+          </h1>
+          <!-- main navigation list -->
+          <ul
+            class="main-navigation-list hidden sm:flex gap-4 text-lg tracking-wide ml-auto mr-4 lg:ml-auto lg:mr-auto lg:gap-8"
+          >
+            <li>
+              <a
+                href=""
+                aria-label="link do strony przedstawiającej firmę Wrapzo"
+                >O&nbsp;nas</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="link usług firmy Wrapzo">Usługi</a>
+            </li>
+            <li>
+              <a
+                href=""
+                aria-label="link do strony przedstawiającej zrealizowane projekty firmy Wrapzo"
+                >Realizacje</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                aria-label="link zachęcający do kontaktu z firmą Wrapzo"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+          <!--contact btn-->
+          <ul
+            class="rounded-full ml-auto mr-2 bg-gold text-white sm:ml-0 md:mr-0 md:ml-0"
+          >
+            <li>
+              <a class="font-normal px-4 py-2" href="tel:+48571206581"
+                >571-206-581</a
+              >
+            </li>
+          </ul>
+
+          <!--toggle button-->
+          <button class="btn sm:hidden z-20">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="35"
+              height="35"
+              viewBox="0,0,256,256"
+            >
+              <g
+                fill="#ffffff"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <g transform="scale(8.53333,8.53333)">
+                  <path
+                    d="M3,7c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,14c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,21c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h24c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </button>
+          <!--navigation media list-->
+          <ul class="media hidden md:flex items-center">
+            <li
+              class="px-2 lg:px-2"
+              aria-label="link do strony wrapzo na facebooku"
+            >
+              <a class="" href="https://www.facebook.com/wrapzodetailing">
+                <svg
+                  class="w-[25px] h-[25px] text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              class="px-2 lg:px-3"
+              aria-label="link do strony wrapzo na platformie X"
+            >
+              <a class=" " href="https://www.instagram.com/wrapzo_detailing/">
+                <svg
+                  class="w-[22px] h-[22px] text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              class="px-2 lg:px-3"
+              aria-label="link do strony wrapzo na platformie instagram"
+            >
+              <a class=" " href="https://www.instagram.com/wrapzo_detailing/">
+                <svg
+                  class="w-[26px] h-[26px] text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <!-- mobile menu dropdown -->
+          <div
+            class="mobile-menu hidden bg-zinc-100/85 min-h-screen py-10 z-10 text-zinc-700"
+          >
+            <div class="bg-white py-4 px-5 mx-7 rounded-xl">
+              <header class="flex justify-between items-center mb-4">
+                <strong> <h2 class="text-sm tracking-wider">Menu</h2></strong>
+                <button class="size-6 cross">
+                  <img src="./images/assets/cross-svgrepo-com.svg" alt="" />
+                </button>
+              </header>
+              <!--navigation menu-->
+              <ul class="divide-y text-lg divide-zinc-100 mb-2">
+                <li>
+                  <a
+                    href=""
+                    aria-label="link do strony przedstawiającej firmę Wrapzo"
+                    >O&nbsp;nas</a
+                  >
+                </li>
+                <li>
+                  <a href="" aria-label="link usług firmy Wrapzo">Usługi</a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    aria-label="link do strony przedstawiającej zrealizowane projekty firmy Wrapzo"
+                    >Realizacje</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    aria-label="link zachęcający do kontaktu z firmą Wrapzo"
+                    >Kontakt</a
+                  >
+                </li>
+              </ul>
+              <div>
+                <!--social media links-->
+                <ul class="flex items-center justify-start gap-4">
+                  <li class="p-1">
+                    <a href="">
+                      <svg
+                        class="w-[25px] h-[25px] text-zinc-500"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="p-1">
+                    <a href="">
+                      <svg
+                        class="w-[22px] h-[22px] text-zinc-500"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="p-1">
+                    <a href="">
+                      <svg
+                        class="w-[26px] h-[26px] text-zinc-500"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="p-1">
+                    <a href="">
+                      <svg
+                        class="w-[26px] h-[26px] text-zinc-500"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-width="1.9"
+                          d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile menu dropdown end-->
+        </nav>
+      </div>
+
+      <!--hero section-->
+      <div class="w-full px-4 mt-auto max-w-7xl mx-auto">
+        <div class="flex flex-col mb-5">
+          <span class="uppercase tracking-widest mb-3 xl:text-xl"
+            >Studio <strong class="text-gold">Wrapzo</strong></span
+          >
+          <h2
+            class="text-5xl uppercase font-extrabold sm:text-6xl lg:text-7xl xl:text-8xl"
+          >
+            Car Detailing
+          </h2>
+          <p class="mb-8 sm:text-xl max-w-80 lg:w-96">
+            Profesjonalne studio detailingowe odnowi twój samochód.
+          </p>
+          <a
+            class="btn-cta tracking-wider mb-8 sm:px-4 sm:py-3 lg:px-8 lg:text-2xl xl:mb-20"
+            href="#"
+            aria-label=""
+            >Skontaktuj&nbsp;się</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--services section wrapper-->
+      <div class="max-w-7xl mx-auto px-4 sm:mb-8">
+        <!--services header section-->
+        <div class="py-8 flex flex-col mb-8">
+          <h2
+            class="text-gold font-sans font-bold uppercase tracking-widest mb-3 text-lg sm:text-2xl"
+          >
+            Nasze usługi detailingowe
+          </h2>
+
+          <p class="text-lg font-thin leading-9 lg:max-w-[600px]">
+            Zapewniamy najwyższą jakość świadczenia usług oraz podejścia do
+            klienta. Ufamy i pracujemy tylko na sprawdzonych markach. Oferujemy
+            szeroki wahlarz usług od oklejania foliami PPF po detailingowe mycie
+            pojazdu.
+          </p>
+        </div>
+      </div>
+
+      <!--services section-->
+      <section
+        class="max-w-7xl mx-auto px-4 grid grid-cols-1 gap-5 place-items-center lg:gap-24"
+      >
+        <!--card-->
+        <div
+          class="card mt-5 mb-5 overflow-hidden divide-y divide-grey-50 max-w-[400px] md:grid md:grid-cols-2 md:gap-5 md:divide-none md:place-items-center md:max-w-[880px] md:h-[500px] lg:max-w-[980px] xl:max-w-full"
+        >
+          <!--card image-->
+          <div class="card-image mb-2 h-96 overflow-hidden md:h-auto">
+            <img
+              src="../build/images/cards/czyszczenie.jpg"
+              alt="czyszczenie detaliczne samochodu, auto detailing w Wrapzo"
+              title="czyszczenie detaliczne samochodu, auto detailing w Wrapzo"
+              loading="lazy"
+            />
+          </div>
+          <!--card content-->
+          <div class="flex flex-col gap-1 px-2 mb-4">
+            <div class="flex items-center gap-4 mb-3">
+              <strong class="stroke-text">01</strong>
+              <h2
+                class="font-sans text-3xl font-extrabold tracking-wide lg:text-4xl"
+              >
+                Czyszczenie <br />
+                wnętrza
+              </h2>
+            </div>
+            <p class="text-lg font-thin mb-5">
+              U nas nie ma miejsca na półśrodki. Stworzyliśmy pakiet na start,
+              będący bazą do bieżącej pielęgnacji auta. Pakiet polega na
+              przywróceniu salonowego stanu twojego auta. Na usługę składa się
+              pełna dekontaminacja i deironizacja lakieru i felg, detailingowe
+              mycie każdego zakamarku pojazdu oraz zabezpieczenie karoserii
+              sealant'em na okres ..
+            </p>
+            <div class="flex gap-4">
+              <a class="bg-gold px-4 py-2" href="">Umów termin</a>
+              <a class="bg-gold px-4 py-2" href="">Dowiedz się więcej</a>
+            </div>
+          </div>
+        </div>
+        <!--card end-->
+        <!--card-->
+        <div
+          class="card rounded-xl overflow-hidden divide-y divide-grey-50 max-w-[400px] md:grid md:grid-cols-2 md:gap-5 md:divide-none md:place-items-center md:max-w-[880px] md:h-[500px] lg:max-w-[980px] xl:max-w-full"
+        >
+          <!--card image-->
+          <div
+            class="card-image mb-2 h-96 overflow-hidden md:h-auto xl:order-2"
+          >
+            <img
+              src="../build/images/cards/polerowanie.jpg"
+              alt="korekta lakieru, polerowanie, auto detailing Wrapzo"
+              title="korekta lakieru, polerowanie, auto detailing Wrapzo"
+              loading="lazy"
+            />
+          </div>
+          <!--card content-->
+          <div class="flex flex-col gap-1 px-2 mb-4">
+            <div class="flex items-center gap-4 mb-3">
+              <strong class="stroke-text">02</strong>
+              <h2
+                class="font-sans text-3xl font-extrabold tracking-wide lg:text-4xl"
+              >
+                Korekta <br />
+                Lakieru
+              </h2>
+            </div>
+            <p class="text-lg font-thin mb-5">
+              Usługa skierowana dla pojazdów, których lakier stracił swój
+              pierwotny blask lub stał się matowy, co gorsze porysowany. Do
+              uszkodzeń powłoki lakierniczej najczęściej dochodzi poprzez
+              nieodpowiednie mycie karoserii lub przy zastosowaniu
+              nieodpowiednich środków chemicznych. Na pogarszający stan lakieru
+              ma również wiele czynników zewnętrznych tj.
+            </p>
+            <div class="flex gap-4">
+              <a class="bg-gold px-4 py-2" href="">Umów termin</a>
+              <a class="bg-gold px-4 py-2" href="">Dowiedz się więcej</a>
+            </div>
+          </div>
+        </div>
+        <!--card end-->
+        <!--card-->
+        <div
+          class="card rounded-xl overflow-hidden divide-y divide-grey-50 max-w-[400px] md:grid md:grid-cols-2 md:gap-5 md:divide-none md:place-items-center md:max-w-[880px] md:h-[500px] lg:max-w-[980px] xl:max-w-full"
+        >
+          <!--card image-->
+          <div class="card-image mb-2 h-96 overflow-hidden md:h-auto">
+            <img
+              src="../build/images/cards/ceramika.jpg"
+              alt="powłoki ceramiczne, ochrona lakieru, powłoki ochronne lakieru, auto detailing Wrapzo"
+              title="powłoki ceramiczne, ochrona lakieru, powłoki ochronne lakieru, auto detailing Wrapzo"
+              loading="lazy"
+            />
+          </div>
+          <!--card content-->
+          <div class="flex flex-col gap-1 px-2 mb-4">
+            <div class="flex items-center gap-4 mb-3">
+              <strong class="stroke-text">03</strong>
+              <h2
+                class="font-sans text-3xl font-extrabold tracking-wide lg:text-4xl"
+              >
+                Powłoki <br />
+                Ochronne
+              </h2>
+            </div>
+            <p class="text-lg font-thin mb-5">
+              U nas nie ma miejsca na półśrodki. Stworzyliśmy pakiet na start,
+              będący bazą do bieżącej pielęgnacji auta. Pakiet polega na
+              przywróceniu salonowego stanu twojego auta. Na usługę składa się
+              pełna dekontaminacja i deironizacja lakieru i felg, detailingowe
+              mycie każdego zakamarku pojazdu oraz zabezpieczenie karoserii
+              sealant'em na okres ..
+            </p>
+            <div class="flex gap-4">
+              <a class="bg-gold px-4 py-2" href="">Umów termin</a>
+              <a class="bg-gold px-4 py-2" href="">Dowiedz się więcej</a>
+            </div>
+          </div>
+        </div>
+        <!--card end-->
+        <!--card-->
+        <div
+          class="card rounded-xl overflow-hidden divide-y divide-grey-50 max-w-[400px] md:grid md:grid-cols-2 md:gap-5 md:divide-none md:place-items-center md:max-w-[880px] md:h-[500px] lg:max-w-[980px] xl:max-w-full"
+        >
+          <!--card image-->
+          <div
+            class="card-image mb-2 h-96 overflow-hidden md:h-auto xl:order-1"
+          >
+            <img
+              src="../build/images/cards/folia ppf.jpg"
+              alt="folia ochronna na auto,folia ochronna PPF, auto detailing Wrapzo"
+              title="folia ochronna na auto,folia ochronna PPF, auto detailing Wrapzo"
+              loading="lazy"
+            />
+          </div>
+          <!--card content-->
+          <div class="flex flex-col gap-1 px-2 mb-4">
+            <div class="flex items-center gap-4 mb-3">
+              <strong class="stroke-text">04</strong>
+              <h2
+                class="font-sans text-3xl font-extrabold tracking-wide lg:text-4xl"
+              >
+                Folia<br />
+                Ochronna
+              </h2>
+            </div>
+            <p class="text-lg font-thin mb-5">
+              U nas nie ma miejsca na półśrodki. Stworzyliśmy pakiet na start,
+              będący bazą do bieżącej pielęgnacji auta. Pakiet polega na
+              przywróceniu salonowego stanu twojego auta. Na usługę składa się
+              pełna dekontaminacja i deironizacja lakieru i felg, detailingowe
+              mycie każdego zakamarku pojazdu oraz zabezpieczenie karoserii
+              sealant'em na okres ..
+            </p>
+            <div class="flex gap-4">
+              <a class="bg-gold px-4 py-2" href="">Umów termin</a>
+              <a class="bg-gold px-4 py-2" href="">Dowiedz się więcej</a>
+            </div>
+          </div>
+        </div>
+        <!--card end-->
+      </section>
+    </main>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
